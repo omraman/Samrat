@@ -1,0 +1,411 @@
+.color{
+	color: black !important;
+}
+.right{
+	float: right!important;
+    margin-right: -15px;
+}
+.header{
+	height: 100%;
+}
+.font{
+	font-weight: bold;
+}
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  width: 50%;
+  bottom: 14%;
+  right: 25%;
+  
+}
+.world{
+	font-weight: bold;
+	font-size: 50px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	color: blue;
+}
+.fontl{
+	font-size: 50px;
+}
+.font2{
+	font-size: 30px;
+}
+.center {
+  margin: auto;
+  margin-left: 10%;
+}
+.margin{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.box{
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Make the width of box same as image */
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right: 0px;        
+    text-align: center;
+    top: 20%; /* Adjust this value to move the positioned div up and down */
+    background: white;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    font-family: Arial,sans-serif;
+    color: blue;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    
+    width: 60%; /* Set the width of the positioned div */
+    height: 60%;
+}
+
+.box0{
+    position: relative;
+    width: 100%; /* Make the width of box same as image */
+}
+.box0 .text0{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right: 0px;        
+    text-align: center;
+    top: 10%; /* Adjust this value to move the positioned div up and down */
+    background: white;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    font-family: Arial,sans-serif;
+    color: blue;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    
+    width: 60%; /* Set the width of the positioned div */
+    height: 80%;
+}
+
+.box1{
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Make the width of box same as image */
+}
+.box1 .text1{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0px;    
+    text-align: center;
+    top: 15%; /* Adjust this value to move the positioned div up and down */
+    background: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    font-family: Arial,sans-serif;
+    color: blue;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+  	box-shadow: rgba(1, 1, 1, 1);
+    width: 60%; /* Set the width of the positioned div */
+    height: 70%;
+}
+
+.box2{
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Make the width of box same as image */
+}
+.box2 .text2{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 50%;    
+    text-align: center;
+    top: 5%; /* Adjust this value to move the positioned div up and down */
+    background: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    font-family: Arial,sans-serif;
+    color: blue;
+    right: 0px;
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 3%;
+  	box-shadow: rgba(1, 1, 1, 1);
+    width: 50%; /* Set the width of the positioned div */
+    height: 90%;
+}
+
+.box3{
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Make the width of box same as image */
+}
+.box3 .text3{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    text-align: center;
+    top: 10%; /* Adjust this value to move the positioned div up and down */
+    background: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    font-family: Arial,sans-serif;
+    color: blue;
+    right: 50%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+  	box-shadow: rgba(1, 1, 1, 1);
+    width: 50%; /* Set the width of the positioned div */
+    height: 80%;
+}
+
+.textcol{
+	border: 2px solid white !important;
+	width: 100%;
+	font-weight: bolder;
+}
+.cola{
+	color: white;
+}
+.colore {
+    background-image: linear-gradient(to right,gray,black)!important;
+    color: white;
+}
+
+.navbar-right1{
+    margin-left: 43%;
+}
+.navbar-right{
+    margin-left: 92%;
+}
+.nav2{
+    margin-top: 0px!important;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+.nav3{
+    margin-left: 100px!important;
+}
+.btn-change6{
+    height: 40px!important;
+    width: 150px!important;
+    margin: 20px;
+    float: left;
+    border:0px;
+    background: white;
+    color: blue;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #31708f  inset;
+}
+.btn-change6:hover{
+    box-shadow:0 0 0 25px black  inset;
+    color: yellow;
+    -webkit-transform: scale(1);
+}
+.btn-change7{
+    height: 40px!important;
+    width: 150px!important;
+    background: blue;
+    margin: 20px;
+    float: left;
+    border:0px;
+    color:#fff;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #31708f  inset;
+}
+.btn-change7:hover{
+    box-shadow:0 0 0 25px black  inset;
+    color: yellow;
+    -webkit-transform: scale(1);
+}
+
+.freedomimg{
+    height: 100%; 
+    width: 50%; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.btn-change5{
+    height: 15%;
+    width: 25%;
+    float: left;
+    border:0px;
+    background: white;
+    color: blue;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #31708f  inset;
+}
+.btn-change5:hover{
+    box-shadow:0 0 0 25px black  inset;
+    color: yellow;
+    -webkit-transform: scale(1);
+}
+
+.inverstmentman{
+    height: 150% !important; 
+    width: 60%; 
+    margin-left: 40%; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.btn-change4{
+    height: 15%;
+    width: 20%;
+    float: left;
+    border:0px;
+    background: white;
+    color: blue;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #31708f  inset;
+}
+.btn-change4:hover{
+    box-shadow:0 0 0 25px black  inset;
+    color: yellow;
+    -webkit-transform: scale(1);
+}
+
+.mobiler{
+    height: 100%; 
+    width: 60%; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.btn-change9{
+    height: 30%;
+    width: 20%;
+    float: left;
+    border:0px;
+    background: white;
+    color: blue;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #31708f  inset;
+}
+.btn-change9:hover{
+    box-shadow:0 0 0 25px black  inset;
+    color: yellow;
+    -webkit-transform: scale(1);
+}
+.btn-change10{
+    height: 30%;
+    width: 20%;
+    float: left;
+    border:0px;
+    background: white;
+    color: blue;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #31708f  inset;
+}
+.btn-change10:hover{
+    box-shadow:0 0 0 25px black  inset;
+    color: yellow;
+    -webkit-transform: scale(1);
+}
+.btn-change2{
+    height: 40px;
+    width: 140px;
+    margin: 20px;
+    float: left;
+    border:0px;
+    background: white;
+    color: blue;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #31708f  inset;
+}
+.btn-change2:hover{
+    box-shadow:0 0 0 25px black  inset;
+    color: yellow;
+    -webkit-transform: scale(1);
+}
+.btn-change1{
+    height: 40px;
+    width: 140px;
+    background: blue;
+    margin: 20px;
+    float: left;
+    border:0px;
+    color:#fff;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #31708f  inset;
+}
+.btn-change1:hover{
+    box-shadow:0 0 0 25px black  inset;
+    color: yellow;
+    -webkit-transform: scale(1);
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.btn-change{
+    height: 50%;
+    width: 100%;
+    margin: 20px;
+    float: left;
+    border: 5px solid blue !important;
+    color:black;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #31708f  inset;
+}
+.btn-change:hover{
+    box-shadow:0 0 0 25px black  inset;
+    color: yellow;
+    -webkit-transform: scale(1);
+}
+
+
+.open{
+    /*margin-left: 100%;*/
+}
+.Fundingimg{
+    height: 100%; 
+    width: 50%; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+    margin-left: 50%;
+}
+.imglogo{
+    padding-right: 0px; 
+    padding-left: 0px; 
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+    width: 200px;
+    height: 35px;
+}
+.mar{
+    margin-right: 0%!important;
+}
+.colore1{
+    /*background-image: linear-gradient(to right,white,blue)!important;*/
+    /*color: white;*/
+}
